@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Id:</b>
+  <%= @download.id %>
+</p>
+
+<p>
+  <b>Request:</b>
+  <%= @download.request %>
+</p>
+
+<p>
+  <b>Instrument:</b>
+  <%= @download.instrument_id %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @download.date %>
+</p>
+
+<p>
+  <b>File:</b>
+  <%= @download.file %>
+</p>
+
+
+<%= link_to 'Edit', edit_download_path(@download) %> |
+<%= link_to 'Back', downloads_path %>
